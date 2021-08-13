@@ -19,7 +19,7 @@ export default function Repositories() {
 
     return (
         <S.Container>
-            <S.Title>Repositórios</S.Title>
+            <S.Title>Repositórios Encontrados</S.Title>
             <S.List>
                 {repositories.map(repository => {
                     return (

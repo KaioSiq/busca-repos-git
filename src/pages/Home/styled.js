@@ -13,7 +13,13 @@ export const h1 = styled.h1`
     display: flex;
     align-items: center;
     justify-content: center;
+`;
 
+export const h4 = styled.h4`
+    font-family: Sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 `;
 
 export const Content = styled.div`

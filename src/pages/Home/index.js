@@ -32,6 +32,9 @@ function App(props) {
           <S.h1>Pesquisa de Repositórios no GitHub</S.h1>
         </S.Content>
         <S.Content>
+          <S.h4>Insira o nome do usuário no campo abaixo</S.h4>
+        </S.Content>
+        <S.Content>
         <S.Input name="usuario" id="usuario" className="usuarioInput " placeholder="Usuário" value={usuario} onChange={e => setUsuario(e.target.value)} />
         <S.Button type="button" onClick={handlePesquisa}>Pesquisar</S.Button>
       </S.Content>
